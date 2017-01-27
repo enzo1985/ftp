@@ -23,54 +23,54 @@ FTP 客户端 - 服务器实现
 ''         pic_4.jpg
 
 
+
 ### 用法
 编译链接ftp服务器:
-\`\`\`
-'' $ cd server/
-'' $ make
-\`\`\`
+```
+$ cd server/
+$ make
+```
 
 编译链接ftp客户端:
-\`\`\`
-'' $ cd client/
-'' $ make
-\`\`\`
+```
+$ cd client/
+$ make
+```
 
 运行ftp服务器:
-\`\`\`
-'' $ server/ftserve PORTNO
-\`\`\`
+```
+$ server/ftserve PORTNO
+```
 
 运行ftp客户端:
-\`\`\`
-'' $ client/ftclient HOSTNAME PORTNO
-'' 
-'' 指令:
-''     list
-''     get <文件名>
-''     quit
-\`\`\`
+```
+$ client/ftclient HOSTNAME PORTNO
+
+指令:
+    list
+    get <文件名>
+    quit
+```
 
 可用指令:
-\`\`\`
+```
 list            - 获取当前远程目录的文件列表
-get ~<filename>~  - 获取特定文件
+get <filename>  - 获取特定文件
 quit            - 终止当前ftp会话
-\`\`\`
+```
 
 登录:
-\`\`\`
-'' Name: anonymous
-'' Password: [empty]
-\`\`\`
+```
+Name: anonymous
+Password: [empty]
+```
 
-
-服务器架构:
+### 服务器架构:
 
 ![pic1](https://raw.githubusercontent.com/tantao0675/ftp/master/readme_pic/pic_2.jpg)
 ![pic1](https://raw.githubusercontent.com/tantao0675/ftp/master/readme_pic/pic_3.jpg)
 ![pic1](https://raw.githubusercontent.com/tantao0675/ftp/master/readme_pic/pic_4.jpg)
 
-客户端架构:
+### 客户端架构:
 
 wait
