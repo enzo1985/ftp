@@ -64,7 +64,7 @@ quit            - 终止当前ftp会话
 '' Password: [empty]
 \`\`\`
 
-```
+
 服务器架构:
 
 ![pic1](https://raw.githubusercontent.com/tantao0675/ftp/master/readme_pic/pic_2.jpg)
