@@ -3,24 +3,24 @@ FTP 客户端 - 服务器实现
 这是一个文件传输程序的简单实现，它包含了定制的客户端和服务器程序，用来提供授权用户，列出远程文件目录，以及获取远程文件的功能。
 
 ### 源代码结构:
-'' ftp/
-''     client/
-''         ftclient.c
-''         ftclient.h
-''         makefile
-''     common/
-''         common.c
-''         common.h
-''     server/
-''         ftserve.c
-''         ftserve.h
-''         makefile
-''         .auth
-''     readme_pic/
-''         pic_1.jpg
-''         pic_2.jpg
-''         pic_3.jpg
-''         pic_4.jpg
+ftp/
+    client/
+        ftclient.c
+        ftclient.h
+        makefile
+    common/
+        common.c
+        common.h
+    server/
+        ftserve.c
+        ftserve.h
+        makefile
+        .auth
+    readme_pic/
+        pic_1.jpg
+        pic_2.jpg
+        pic_3.jpg
+        pic_4.jpg
 
 
 
