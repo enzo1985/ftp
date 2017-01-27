@@ -63,8 +63,10 @@ quit            - 终止当前ftp会话
 Name: anonymous
 Password: [empty]
 ```
-
-![pic1](https://raw.githubusercontent.com/tantao0675/ftp/master/readme_pic/pic_1.jpg)
+服务器架构:
 ![pic1](https://raw.githubusercontent.com/tantao0675/ftp/master/readme_pic/pic_2.jpg)
 ![pic1](https://raw.githubusercontent.com/tantao0675/ftp/master/readme_pic/pic_3.jpg)
 ![pic1](https://raw.githubusercontent.com/tantao0675/ftp/master/readme_pic/pic_4.jpg)
+
+客户端架构:
+wait
