@@ -67,10 +67,10 @@ Password: [empty]
 
 ### 服务器架构:
 
-![pic1](https://raw.githubusercontent.com/tantao0675/ftp/master/readme_pic/pic_2.jpg)
-![pic1](https://raw.githubusercontent.com/tantao0675/ftp/master/readme_pic/pic_3.jpg)
-![pic1](https://raw.githubusercontent.com/tantao0675/ftp/master/readme_pic/pic_4.jpg)
+![pic2](https://raw.githubusercontent.com/tantao0675/ftp/master/readme_pic/pic_2.jpg)
+![pic3](https://raw.githubusercontent.com/tantao0675/ftp/master/readme_pic/pic_3.jpg)
+![pic4](https://raw.githubusercontent.com/tantao0675/ftp/master/readme_pic/pic_4.jpg)
 
 ### 客户端架构:
 
-wait
+![pic5](https://raw.githubusercontent.com/tantao0675/ftp/master/readme_pic/pic_5.jpg)
