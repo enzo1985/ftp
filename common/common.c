@@ -127,7 +127,11 @@ int recv_data(int sockfd, char* buf, int bufsize)
  */
 void trimstr(char* str, int n)
 {
-
+	for(int i=0; i<n; i++)
+	{
+		if(isspace(str[i]))  str[i] = 0;
+		if(str[i]=='\n')     str[i] = 0;
+	}
 };
 
 /*
@@ -138,7 +142,13 @@ void trimstr(char* str, int n)
  */
 int send_response(int sockfd, int rc)
 {
-
+	int conv = htonl(rc);
+	if(send(sockfd, &conv, sizeof conv)<0)
+	{
+		perror("error sending...\n");
+		return -1;
+	}
+	return 0;
 };
 
 
@@ -147,5 +157,15 @@ int send_response(int sockfd, int rc)
  */
 void read_input(char* buffer, int size) 
 {
-
+	char* nl = NULL;
+	memset(buffer, 0, size);
+	
+	if(fgets(buffer, size, stdin)!=NULL)
+	{
+		nl = strchr(buffer, '\n');
+		if(nl!=0)
+		{
+			*nl = '\0';
+		}
+	}
 };
