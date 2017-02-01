@@ -75,7 +75,7 @@ Password: [empty]
 
 ![pic5](https://raw.githubusercontent.com/tantao0675/ftp/master/readme_pic/pic_5.jpg)
 
-### 网络信令通信:
+### 网络信令交换:
 
 ![pic6](https://raw.githubusercontent.com/tantao0675/ftp/master/readme_pic/pic_6.jpeg)
 
