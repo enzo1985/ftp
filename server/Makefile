@@ -7,10 +7,10 @@ OBJS = ftserve.o $(SHDIR)/common.o
 all: ftserve
 
 ftserve: $(OBJS)
-    @$(cc) -o $@ $(OBJS)
+    @$(CC) -o $@ $(OBJS)
 
 $(OBJS) : %.o: %.c
-    @$(cc) -o $@ -c $<
+    @$(CC) -o $@ -c $<
 
 .PHONY:
 clean:
